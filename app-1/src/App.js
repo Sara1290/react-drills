@@ -1,14 +1,16 @@
 import React from 'react';
+import TextBox from './Components/TextBox'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <TextBox/>
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />                      // i know this is just the logo and learn react link but i'm too scared to delete it
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <a
           className="App-link"
@@ -18,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
